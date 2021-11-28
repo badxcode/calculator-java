@@ -66,9 +66,10 @@ public class Calculator extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(238, 0, 238));
 
         piButton.setBackground(new java.awt.Color(122, 240, 63));
-        piButton.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        piButton.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         piButton.setText("π");
         piButton.setBorder(null);
         piButton.addActionListener(new java.awt.event.ActionListener() {
@@ -78,7 +79,7 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         rootButton.setBackground(new java.awt.Color(122, 240, 63));
-        rootButton.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        rootButton.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         rootButton.setText("√");
         rootButton.setBorder(null);
         rootButton.addActionListener(new java.awt.event.ActionListener() {
@@ -88,8 +89,8 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         squareButton.setBackground(new java.awt.Color(122, 240, 63));
-        squareButton.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
-        squareButton.setText("a²");
+        squareButton.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        squareButton.setText("x²");
         squareButton.setBorder(null);
         squareButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -98,7 +99,7 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         additionButton.setBackground(new java.awt.Color(132, 202, 202));
-        additionButton.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        additionButton.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         additionButton.setText("+");
         additionButton.setBorder(null);
         additionButton.addActionListener(new java.awt.event.ActionListener() {
@@ -108,7 +109,7 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         sevenButton.setBackground(new java.awt.Color(63, 240, 223));
-        sevenButton.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        sevenButton.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         sevenButton.setText("7");
         sevenButton.setBorder(null);
         sevenButton.addActionListener(new java.awt.event.ActionListener() {
@@ -118,7 +119,7 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         eightButton.setBackground(new java.awt.Color(63, 240, 223));
-        eightButton.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        eightButton.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         eightButton.setText("8");
         eightButton.setBorder(null);
         eightButton.addActionListener(new java.awt.event.ActionListener() {
@@ -128,7 +129,7 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         nineButton.setBackground(new java.awt.Color(63, 240, 223));
-        nineButton.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        nineButton.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         nineButton.setText("9");
         nineButton.setBorder(null);
         nineButton.addActionListener(new java.awt.event.ActionListener() {
@@ -138,7 +139,7 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         subtractionButton.setBackground(new java.awt.Color(132, 202, 202));
-        subtractionButton.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        subtractionButton.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         subtractionButton.setText("-");
         subtractionButton.setBorder(null);
         subtractionButton.addActionListener(new java.awt.event.ActionListener() {
@@ -148,7 +149,7 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         fourButton.setBackground(new java.awt.Color(63, 240, 223));
-        fourButton.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        fourButton.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         fourButton.setText("4");
         fourButton.setBorder(null);
         fourButton.addActionListener(new java.awt.event.ActionListener() {
@@ -158,7 +159,7 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         fiveButton.setBackground(new java.awt.Color(63, 240, 223));
-        fiveButton.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        fiveButton.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         fiveButton.setText("5");
         fiveButton.setBorder(null);
         fiveButton.addActionListener(new java.awt.event.ActionListener() {
@@ -168,7 +169,7 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         sixButton.setBackground(new java.awt.Color(63, 240, 223));
-        sixButton.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        sixButton.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         sixButton.setText("6");
         sixButton.setBorder(null);
         sixButton.addActionListener(new java.awt.event.ActionListener() {
@@ -178,7 +179,7 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         multiplicationButton.setBackground(new java.awt.Color(132, 202, 202));
-        multiplicationButton.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        multiplicationButton.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         multiplicationButton.setText("x");
         multiplicationButton.setBorder(null);
         multiplicationButton.addActionListener(new java.awt.event.ActionListener() {
@@ -188,7 +189,7 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         divisionButton.setBackground(new java.awt.Color(132, 202, 202));
-        divisionButton.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        divisionButton.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         divisionButton.setText("÷");
         divisionButton.setBorder(null);
         divisionButton.addActionListener(new java.awt.event.ActionListener() {
@@ -198,7 +199,7 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         oneButton.setBackground(new java.awt.Color(63, 240, 223));
-        oneButton.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        oneButton.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         oneButton.setText("1");
         oneButton.setBorder(null);
         oneButton.addActionListener(new java.awt.event.ActionListener() {
@@ -228,7 +229,7 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         zeroButton.setBackground(new java.awt.Color(63, 240, 223));
-        zeroButton.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        zeroButton.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         zeroButton.setText("0");
         zeroButton.setBorder(null);
         zeroButton.addActionListener(new java.awt.event.ActionListener() {
@@ -238,7 +239,7 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         clearButton.setBackground(new java.awt.Color(240, 63, 63));
-        clearButton.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        clearButton.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         clearButton.setForeground(new java.awt.Color(255, 255, 255));
         clearButton.setText("C");
         clearButton.setBorder(null);
@@ -249,7 +250,7 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         equalButton.setBackground(new java.awt.Color(69, 74, 149));
-        equalButton.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        equalButton.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         equalButton.setForeground(new java.awt.Color(255, 255, 255));
         equalButton.setText("=");
         equalButton.setBorder(null);
@@ -260,7 +261,7 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         modulusButton.setBackground(new java.awt.Color(132, 202, 202));
-        modulusButton.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        modulusButton.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         modulusButton.setText("%");
         modulusButton.setBorder(null);
         modulusButton.addActionListener(new java.awt.event.ActionListener() {
@@ -490,7 +491,17 @@ public class Calculator extends javax.swing.JFrame {
         // TODO add your handling code here:
         arithmetic_operations();
         outputTextField.setText(result+"");
-        inputTextField.setText("");
+        switch(operation)
+        {
+            case "+":
+            case "-":
+            case "%":
+            case "/": inputTextField.setText(value+" "+operation+" "+inputTextField.getText()); break;
+            case "*": inputTextField.setText(value+" x "+inputTextField.getText()); break;
+            
+            case "root": inputTextField.setText("√("+value+")"); break;
+            case "sqr" : inputTextField.setText("("+value+")²"); break;
+        }
     }//GEN-LAST:event_equalButtonActionPerformed
 
     private void squareButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_squareButtonActionPerformed
@@ -502,7 +513,7 @@ public class Calculator extends javax.swing.JFrame {
 
     private void piButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_piButtonActionPerformed
         // TODO add your handling code here:
-        inputTextField.setText("3.14156");
+        inputTextField.setText(Math.PI+"");
     }//GEN-LAST:event_piButtonActionPerformed
 
     /**
